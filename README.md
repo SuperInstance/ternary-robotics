@@ -98,6 +98,14 @@ fn main() {
 
 Part of the SuperInstance ternary crate family. `ternary-robotics` sits at the physical interaction layer. It can be driven by decisions from `ternary-voting` or `ternary-language-model`, execute programs compiled with `ternary-compiler-v2`, and log sensor states to `ternary-database`. The `TernaryActuator` type uses the standard {-1, 0, +1} encoding.
 
+## See Also
+
+- **ternary-control** — Ternary PID and bang-bang controllers
+- **ternary-sensor** — Sensor classification and fusion for ternary systems
+- **ternary-kalman** — Kalman filtering for ternary state spaces
+- **ternary-esp32-firmware** — ESP32 firmware for ternary sensor/actuator nodes
+- **ternary-motion** — Motion planning and trajectory generation
+
 ## License
 
 MIT
